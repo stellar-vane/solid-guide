@@ -10,7 +10,7 @@ import functools
 
 print = functools.partial(print, flush=True)
 
-TEST_MODE = False
+TEST_MODE = True
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:116.0.1) Gecko/20100101 Firefox/116.0.1"
